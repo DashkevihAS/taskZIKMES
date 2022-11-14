@@ -36,6 +36,10 @@
   }
 
   &__submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     flex: 0 0 200px;
     height: 100%;
     background-color: rgb(247, 12, 12);
@@ -43,7 +47,8 @@
     color: white;
     transform: skewX(-45deg);
 
-    & span {
+    & span,
+    i {
       display: block;
       transform: skewX(45deg);
     }
@@ -67,7 +72,8 @@
     &__submit-btn {
       flex: 0 0 150px;
       transform: unset;
-      & span {
+      & span,
+      i {
         transform: unset;
       }
     }
