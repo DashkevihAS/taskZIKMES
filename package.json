@@ -20,7 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
-    "babel-loader": "^8.2.5",
+    "babel-loader": "^9.1.0",
     "css-loader": "^6.7.2",
     "group-css-media-queries-loader": "^4.3.0",
     "html-loader": "^4.2.0",
@@ -29,7 +29,7 @@
     "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.19",
     "postcss-loader": "^7.0.1",
-    "postcss-preset-env": "^7.8.2",
+    "postcss-preset-env": "^7.8.3",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
